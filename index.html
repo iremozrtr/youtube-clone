@@ -4,111 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>HTML 5 Boilerplate</title>
+    <title>Youtube Clone</title>
+      <link rel="stylesheet" href="style1.css">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
     />
     <style>
-      body {
-        margin: 0;
-        padding: 0;
-        font-family: Arial, sans-serif;
-      }
-
-      .header {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 10px 20px;
-        position: fixed;  
-        top: 0;           
-        left: 0;         
-        width: 100%;      
-        z-index: 9999;    
-        background-color: white; 
-        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        background-color: white;
-      }
-
-      .header-left {
-        display: flex;
-        align-items: center;
-        gap: 5px; 
-
-      }
-
-      .youtube-logo {
-        height: 40px;
-        width: 101px;
-        object-fit: contain;
-      }
-
-      .search-box {
-        flex: 1;
-        max-width: 600px;
-        margin: 0 40px;
-        display: flex;
-        align-items: center;
-        border: 1px solid #ccc;
-        border-radius: 2px;
-        overflow: hidden;
-      }
-
-      .search-box input {
-        flex: 1;
-        padding: 8px 12px;
-        font-size: 16px;
-        border: none;
-        outline: none;
-      }
-
-      .search-box button {
-        background-color: #f8f8f8;
-        border: none;
-        padding: 8px 16px;
-        cursor: pointer;
-        font-size: 18px;
-        color: #606060;
-      }
-      .search-box button:hover {
-        background-color: #e8e8e8;
-      }
-
-      .search-box i.fa-microphone {
-        margin-left: 10px;
-        font-size: 18px;
-        color: #606060;
-        cursor: pointer;
-      }
-
-      .header-icons {
-        display: flex;
-        align-items: center;
-        gap: 20px;
-      }
-
-      .header-icons i {
-        font-size: 20px;
-        cursor: pointer;
-        color: #606060;
-      }
-
-      .header-icons i:hover {
-        color: black;
-      }
-      .Profil-foto{
-        width: 50px;
-        height: 44.5px;
-        object-fit: cover;
-      }
-      .cizgi{
-        display: block;
-        width: 705px;
-        height: 5px;
-        background-color: #e8e8e8;
-
-      }
+ 
     </style>
   </head>
   <body>
@@ -133,5 +36,200 @@
     </div>
 
     <div class="cizgi"></div>
+    <img src="images/h.jpeg"  class="home-foto" alt="home foto">
+
+<div class="sidebar">
+  <ul type="none">
+    <li>
+      <a href="#">
+        <i class="fa-solid fa-house"></i>
+        <span class="anasayfa-item">Ana Sayfa</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <i class="fa-solid fa-bolt"></i>
+        <span class="short-item">Shorts</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <i class="fa-solid fa-tv"></i>
+        <span class="abonelikler-item">Abonelikler</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <i class="fa-solid fa-circle-play"></i>
+        <span class="y-muzik-item">YouTube Müzik</span>
+      </a>
+    </li>
+  </ul>
+   <hr style="border: none; border-bottom: 1px solid #ccc; margin-top: 0;" />
+ <ul>
+    <li>
+      <a href="#">
+      <span class="siz-item">Siz</span>
+      <i class="fa-solid fa-chevron-right"></i>
+      </a>
+    </li>
+  </ul>
+<ul>
+  <li>
+    <a href="#">
+   <i class="fa-solid fa-clock-rotate-left"></i>
+    <span class="gecmis-item">Geçmiş</span>
+    </a>
+
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="#">
+    <i class="fa-regular fa-chart-bar"></i>
+    <span class="oynatma-item">Oyatma Listeleri</span>
+    </a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="#">
+    <i class="fa-regular fa-clock"></i>
+    <span class="time-item">Daha Sonra İzle</span>
+    </a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="#">
+    <i class="fa-regular fa-thumbs-up"></i>
+    <span class="begendigin-item">Beğendiğin Videolar</span>
+    </a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="#">
+    <i class="fa-solid fa-download"></i>
+    <span class="indirme-item">İndirilenler</span>
+    </a>
+  </li>
+</ul>
+ </ul>
+   <hr style="border: none; border-bottom: 1px solid #ccc; margin-top: 0;" />
+
+<ul> 
+  
+  <ul>
+    <li>
+      <a href="#">
+      <i class="fa-solid fa-music"></i>
+      <span class="music-item">Müzik</span>
+      </a>
+    </li>
+  </ul>
+  <ul>
+    <li>
+      <a href="#">
+      <i class="fa-solid fa-tower-broadcast"></i>
+      <span class="live-item">Canlı</span>
+      </a>
+    </li>
+  </ul>
+  <ul>
+    <li>
+      <a href="#">
+      <i class="fa-solid fa-gamepad"></i>
+      <span class="game-item">Oyun</span>
+      </a>
+    </li>
+  </ul>
+  <ul>
+    <li>
+      <a href="#">
+      <i class="fa-solid fa-trophy"></i>
+      <span class="spor-item"> Spor</span>
+      </a>
+    </li>
+  </ul>
+  
+
+</ul>
+   <hr style="border: none; border-bottom: 1px solid #ccc; margin-top: 0;" />
+
+<ul> 
+  <ul>
+    <li> 
+      <a href="#">
+        <i class="fa-solid fa-gear"></i>
+        <span class="settting-item"> Ayarlar</span>
+       </a>
+
+    </li>
+  </ul>
+    <ul>
+    <li> 
+      <a href="#">
+        <i class="fa-regular fa-flag"></i>
+        <span class="content-item"> İçerik</span>
+
+      </a>
+
+    </li>
+  </ul>
+    <ul>
+    <li> 
+      <a href="#">
+        <i class="fa-regular fa-circle-question"></i>
+        <span class="help-item"> Yardım</span>
+
+      </a>
+
+    </li>
+  </ul>
+    <ul>
+    <li> 
+      <a href="#">
+        <i class="fa-solid fa-info"></i>
+        <span class="info-item">Geri Bildirim Gönder</span>
+
+      </a>
+
+    </li>
+  </ul>
+  </ul>
+   <hr style="border: none; border-bottom: 1px solid #ccc; margin-top: 0;" />
+
+<ul> 
+    <ul>
+    <li><a href="#">Hakkında  Basın   Telif Hakkı  Bize Ulaşın   İçerik Üreticiler Reklam Verme   Geliştiriciler   Şartlar  Gizlilik  Politika ve Güvenlik  YouTube Nasıl Çalışıyor?   Yeni Özellikleri Deneyin  </a></li>
+  <li>                                                          .                                                        .        </li>
+  </ul>
+
+
+</div>
+
+
+
+  <div class="cubuk">
+    <ul>
+      <li><a href="#">Tümü</a></li>
+      <li><a href="#">Müzik</a></li>
+      <li><a href="#">Podcast</a></li>
+      <li><a href="#">Haber</a></li>
+      <li><a href="#">Son Yüklenenler</a></li>
+      <li><a href="#">Sitcom</a></li>
+      <li><a href="#">Animasyon</a></li>
+      <li><a href="#">Belgesel</a></li>
+      <li><a href="#">Yemek Pişirme</a></li>
+      <li><a href="#">Görsel Sanatlar</a></li>
+    </ul>
+  </div>
+
+
+
+
+
+
   </body>
 </html>
