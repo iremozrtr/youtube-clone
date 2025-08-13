@@ -1,0 +1,384 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, Arial, sans-serif;
+  padding-top: 70px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10000;
+  height: 60px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.youtube-logo {
+  height: 40px;
+  width: 101px;
+  object-fit: contain;
+}
+
+.search-box {
+  flex: 1;
+  max-width: 600px;
+  margin: 0 40px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.search-box input {
+  flex: 1;
+  padding: 8px 12px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+}
+
+.search-box button {
+  background-color: #f8f8f8;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 18px;
+  color: #606060;
+}
+
+.search-box button:hover {
+  background-color: #e8e8e8;
+}
+
+.search-box i.fa-microphone {
+  margin-left: 10px;
+  font-size: 18px;
+  color: #606060;
+  cursor: pointer;
+}
+
+.header-icons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header-icons i {
+  font-size: 20px;
+  cursor: pointer;
+  color: #606060;
+}
+
+.header-icons i:hover {
+  color: black;
+}
+
+.Profil-foto {
+  width: 50px;
+  height: 44.5px;
+  object-fit: cover;
+}
+
+.cizgi {
+  display: block;
+  width: 705px;
+  height: 5px;
+  background-color: #e8e8e8;
+}
+
+.home-foto {
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+}
+
+.video {
+    padding: 0 20px;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.video-card iframe {
+    width: 100%;
+    height: 720px;
+    max-width: 100%;
+    border-radius: 12px;
+    border: none;
+}
+
+.baslık h1 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 12px 0;
+    color: #030303;
+}
+
+.alt-baslık {
+    display: flex;
+    align-items: center;
+    margin: 16px 0;
+    border: 1px solid #090808;
+    width: 853px;
+    height: 60px;
+    box-sizing: border-box;
+    padding: 0 15px;
+    gap: 15px;
+    justify-self: flex-start;
+}
+.alt-baslık .icon{
+    display: flex;
+    gap: 20px;
+    margin-left: auto;
+}
+.abone {
+    display: inline-flex; 
+    align-items: center;
+    border-radius: 18px;
+    background-color: rgb(0, 0, 0);
+    color: #606060;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 8px 16px;
+    margin: 0;
+    justify-content: flex-start;
+    text-align: left;
+    width: auto; 
+    box-sizing: border-box;
+}
+
+.abone a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+       color: #ffffff;
+}
+
+.abone:hover {
+    background-color: #f0f0f0; 
+}
+
+
+.avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 16px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+      flex-grow: 1; 
+}
+
+.text1 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #030303;
+ 
+}
+
+.text2 {
+    font-size: 13px;
+    color: #606060;
+}
+
+.icon ul {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-left: auto;
+}
+
+.icon ul li a {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    text-decoration: none;
+    color: #606060;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 8px 12px;
+    background-color: #f9f9f9;
+    border-radius: 18px;
+}
+
+.icon ul li a:hover {
+    background-color: #f0f0f0;
+}
+
+.icon ul li a i {
+    font-size: 16px;
+}
+
+.video-info {
+    background-color: white;
+    width: 853px;
+    height: 390px;
+    border-radius: 12px;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #000000;
+margin: 0;
+padding-top: 10px;
+padding-left: 3px;
+    border: 0.5px solid #ffffff;
+    box-sizing: border-box;
+    background-color: rgb(0,0,0, 0.05);
+}
+
+.video-info p {
+    margin:0;
+    padding: 0;
+}
+
+ .yorum-info {
+    display: flex;
+    align-items: center;
+    gap: 30px; 
+    padding-left: 78px;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 16px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.yorum-sayi {
+    font-weight: bold; 
+}
+
+.sirala {
+    display: flex;
+    align-items: center;
+    gap: 8px; 
+}
+
+.yorum-profil {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    width: 853px;
+    height: 60px;
+      padding-left: 70px;
+      box-sizing: border-box;
+}
+
+.yorum-profil img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+ 
+}
+
+.yorum-yap input {
+    width: 789px;
+    padding: 8px;
+    border: none;
+     border-bottom: 1px solid #ccc;
+     outline:none;
+     background:transparent;
+     font-size: 15px;
+   }
+
+
+.yorum {
+    width: 100%;
+    max-width: 853px;
+    padding-left: 9px;
+ margin-top: -70px;
+    
+}
+
+.yorum-kutu {
+    width: 853px;
+    height: 140px;
+
+    box-sizing: border-box;
+    display: flex;
+   padding-top: 80px;
+        padding-left: 70px;
+    margin-bottom: -16px;
+    position: relative;
+}
+
+.yorum-kutu img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 16px;
+    object-fit: cover;
+}
+
+.yorum-yazı {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    display: inline-block
+}
+
+.yorum-ad {
+    font-weight: bold;
+    margin-right: 8px;
+    color: #030303;
+    display: inline-block;
+}
+
+.yorum-tarih {
+    color: #606060;
+    font-size: 0.8rem;
+
+}
+
+.yorum-yazı p {
+    margin: 8px 0;
+    line-height: 1.4;
+    color: #030303;
+   
+}
+
+.yorum-aksiyonlar {
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+    color: #606060;
+    font-size: 14px;
+}
+
+.yorum-aksiyonlar i {
+  margin-right: 16px;
+    cursor: pointer;
+padding: 4px;
+   border-radius: 50%;
+}
+
+.yorum-aksiyonlar i:hover {
+  background-color: #f0f0f0;
+
+}
+
+

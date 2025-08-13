@@ -368,3 +368,18 @@ body {
     gap: 12px;
   }
 }
+@media screen and (max-width: 894px) {
+  .video-card {
+    width:100%;
+    min-width: 360px;
+  }
+  .thumbnail {
+    height:350px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .thumbnail {
+    height:202px;
+  }
+}
